@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kshi Kash</title>
+    <link rel="icon" type="image/x-icon" href="media/favicon.png">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/DeterminationMonoWeb.ttf" />
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script src="https://kit.fontawesome.com/61663d82a2.js" crossorigin="anonymous"></script>
+</head>
+<!-- -------------font------------------------ -->
+<style>
+    @font-face {
+        font-family: "Determination Mono";
+        src: url(fonts/DeterminationMonoWeb.ttf);
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><a href="#portfolio" class="links">Kshitij</a></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#about" class="links">About Me</a></li>
+                    <li><a href="#services" class="links">Services</a></li>
+                    <li><a href="#contact" class="links">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftSection">
+                Hi! My name is
+                <div><span id="element"></span></div>
+            </div>
+
+            <div class="rightSection">
+                
+                <img src="media/computer.gif" alt="" height="500px" width= "500px" allowFullScreen />
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#element", {
+            strings: ["^2000 Kshitij Kashyap"],
+            typeSpeed: 50,
+        });
+    </script>
+    <!-------------about------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="media/about_me.gif" alt="" height="500px" width= "500px" frameBorder="" allowFullScreen />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        Hey there! I’m Kshitj ,a skilled software and web developer who loves turning complex problems into simple, elegant solutions. 
+                        With a keen eye for detail and a love for clean code, I bring a wealth of expertise to every project, from frontend design to backend development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My services</h1>
+            <div class="services-list">
+                <div>
+                    <lord-icon src="https://cdn.lordicon.com/vlycxjwx.json" trigger="hover"
+                        colors="primary:#ffffff,secondary:#ffffff" style="width:100px;height:100px">
+                    </lord-icon>
+                    <h2> Web Development</h2>
+                    <p>I leverage the latest technologies and best practices to deliver intuitive and visually stunning web experiences.</p>
+                </div>
+                <div>
+                    <lord-icon src="https://cdn.lordicon.com/xirobkro.json" trigger="hover" stroke="bold"
+                        colors="primary:#ffffff,secondary:#ffffff" style="width:100px;height:100px">
+                    </lord-icon>
+                    <h2> UI/UX Design</h2>
+                    <p>With a focus on creating intuitive and visually captivating interfaces, prototyping to user testing and iteration, I meticulously craft every detail to ensure optimal usability and satisfaction.</p>
+                </div>
+                <div>
+                    <lord-icon src="https://cdn.lordicon.com/pbbsmkso.json" trigger="hover" stroke="bold"
+                        colors="primary:#ffffff,secondary:#ffffff" style="width:100px;height:100px">
+                    </lord-icon>
+                    <h2> App Development</h2>
+                    <p>I specialize in developing robust and user-friendly applications across various platforms. From conceptualization to deployment. Whether it's a sleek consumer app or a sophisticated enterprise solution.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------Portfolio------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My projects </h1>
+                <div class="projects">
+                    <div class="work">
+                        <img src="media/gemini.webp" />
+                            <div class="layer">
+                                <h3>Google Gemini integration</h3>
+                                <p>A chat bot integration demonstration.</p>
+                                <a href="https://github.com/Kshitij-Kashyap/CodeAlpha_ChatGPT_Integration"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                    </div>
+                    <div class="work">
+                        <img src="media/expense.jpg" />
+                        <div class="layer">
+                            <h3>Expense Tracker</h3>
+                            <p>Expense tracker application.</p>
+                            <a href="https://github.com/Kshitij-Kashyap/CodeAlpha_Expense_Tracker"><i class="fas fa-external-link-alt"></i></a>
+                            
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="media/discord bot.webp"  />
+                        <div class="layer">
+                            <h3>Discord Bot</h3>
+                            <p>Discord Bot based on python.</p>
+                            <a href="https://github.com/KKDONKING/My-Discord-Bot"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+        </div>
+    </div>
+    <!------------------------------ contact -------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>kshitijkashyap@protonmail.com</p>
+                    
+                    <p><i class="fa-solid fa-phone-volume"></i>+91 XXXXX XXXXX</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Kshitij-Kashyap"><i class="fa-brands fa-github"></i></a>
+                        <i class="fa-brands fa-discord"></i>
+                    </div>
+                </div>
+                <div class="contact-right"></div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made with <img src="media/heart.png"> by Kshitij Kashyap</p>
+    </div>
+</body>
+</html>
